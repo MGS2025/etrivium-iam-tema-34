@@ -1074,6 +1074,8 @@ Complementos del correo que conviene citar: **MIME**, que permite adjuntar conte
 
 ## 9. Normativa e integración en la Administración Pública
 
+> **Material complementario.** El enunciado oficial de este tema no nombra este apartado. Se mantiene porque sitúa la materia en el Ayuntamiento y en la normativa que le aplica, pero lo exigible es lo que enumera el título del tema.
+
 ### 9.1. Adopción e implantación de IPv6 en el sector público
 
 **Por qué le concierne a una Administración.** El agotamiento de IPv4 no es un problema académico para un ayuntamiento: condiciona el crecimiento de la red municipal, la incorporación de dispositivos —sensores, cámaras, contadores, señalización— y la accesibilidad de los servicios públicos desde redes que ya solo entregan IPv6 a sus usuarios. Además, la Ley 39/2015 configura la relación electrónica como un **derecho de la ciudadanía** (art. 13.a) y como una **obligación** para determinados sujetos (art. 14) [L39-2015]: si un ciudadano no puede alcanzar la sede electrónica desde su red, hay un problema jurídico, no solo técnico.

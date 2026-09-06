@@ -50,7 +50,7 @@
    8.2. Protocolos de servicios web y de transferencia de archivos
    8.3. Protocolos de correo electrónico y de gestión de red
 
-9. **Normativa e integración en la Administración Pública**
+9. **Normativa e integración en la Administración Pública (material complementario)**
    9.1. Adopción e implantación de IPv6 en el sector público
    9.2. Requisitos de red e interconexión en el Esquema Nacional de Seguridad
 
