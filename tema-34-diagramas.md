@@ -135,8 +135,8 @@
   <circle cx="80" cy="120" r="7" fill="#e89822"/><text x="96" y="112" class="k3">SAP</text>
   <circle cx="460" cy="120" r="7" fill="#e89822"/><text x="476" y="112" class="k3">SAP</text>
   <path d="M80,78 L80,113" stroke="#2d8659" stroke-width="2"/><path d="M460,78 L460,113" stroke="#2d8659" stroke-width="2"/>
-  <text x="150" y="96" text-anchor="middle" class="n3">interfaz: primitivas y parámetros</text>
-  <text x="530" y="96" text-anchor="middle" class="n3">interfaz: primitivas y parámetros</text>
+  <text x="87" y="96" class="n3">interfaz: primitivas y parámetros</text>
+  <text x="467" y="96" class="n3">interfaz: primitivas y parámetros</text>
   <path d="M270,155 L406,155" stroke="#d13c3c" stroke-width="1.6" stroke-dasharray="6,4" marker-end="url(#a3)"/>
   <text x="338" y="148" text-anchor="middle" class="r3">PROTOCOLO DE CAPA N</text>
   <text x="338" y="172" text-anchor="middle" class="n3">reglas, formatos y</text>
@@ -265,8 +265,8 @@
   <path d="M424,58 L650,58 L560,128 L650,240 L424,240 L514,128 z" fill="none" stroke="#0055a0" stroke-width="1.6"/>
   <text x="537" y="78" text-anchor="middle" class="d6">muchas aplicaciones</text>
   <rect x="494" y="118" width="86" height="22" rx="4" fill="#2d8659"/><text x="537" y="133" text-anchor="middle" class="t6">IP</text>
-  <text x="537" y="160" text-anchor="middle" class="d6">un único protocolo</text>
-  <text x="537" y="174" text-anchor="middle" class="d6">en el cuello</text>
+  <text x="537" y="174" text-anchor="middle" class="d6">un único protocolo</text>
+  <text x="537" y="188" text-anchor="middle" class="d6">en el cuello</text>
   <text x="537" y="226" text-anchor="middle" class="d6">muchas tecnologías de red</text>
   <rect x="20" y="262" width="640" height="46" rx="4" fill="#eef3f8"/>
   <text x="340" y="279" text-anchor="middle" class="k6">IP no es fiable ni orientado a conexión: la fiabilidad, si se quiere, la pone TCP en los extremos</text>
