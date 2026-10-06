@@ -41,7 +41,7 @@
 ## D1 · Comunicación vertical real y comunicación horizontal virtual
 
 **Sección**: §1.1 — Concepto y necesidad de las arquitecturas por niveles
-**Propósito**: Fijar la distinción que más se pregunta de todo el bloque conceptual: entre capas de la misma máquina hay **interfaces** y comunicación **real**; entre capas homólogas de máquinas distintas hay **protocolos** y comunicación **virtual**.
+**Propósito**: Fijar la distinción central de todo el bloque conceptual: entre capas de la misma máquina hay **interfaces** y comunicación **real**; entre capas homólogas de máquinas distintas hay **protocolos** y comunicación **virtual**.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" role="img" aria-label="Dos sistemas con cuatro capas cada uno: entre capas adyacentes del mismo sistema la comunicación es vertical y real a través de una interfaz, mientras que entre capas homólogas de sistemas distintos la comunicación es horizontal y virtual mediante un protocolo; solo la capa física transmite bits de forma real por el medio">
@@ -84,7 +84,7 @@
 ## D2 · Quién normaliza qué: organismos por ámbito y por capa
 
 **Sección**: §1.2 — Organismos internacionales de estandarización
-**Propósito**: Repartir los organismos entre normalización formal, comunidad de internet y asociaciones profesionales, y asociar cada uno a la parte de la pila que le corresponde, que es la forma en que se pregunta.
+**Propósito**: Repartir los organismos entre normalización formal, comunidad de internet y asociaciones profesionales, y asociar cada uno a la parte de la pila que le corresponde.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 346" role="img" aria-label="Reparto de competencias de normalización: ISO y UIT-T publican el modelo OSI, el IETF publica los RFC de la pila TCP-IP, el IEEE normaliza las capas física y de enlace mediante la serie 802, e IANA bajo ICANN administra los números de puerto, de protocolo y las direcciones a través de los cinco registros regionales">
@@ -115,7 +115,7 @@
 ## D3 · Anatomía de una capa: servicio, interfaz, protocolo y SAP
 
 **Sección**: §2.2 — Conceptos de capa, servicio, interfaz y protocolo
-**Propósito**: Separar visualmente los tres conceptos que el examen confunde a propósito: qué ofrece la capa (servicio), cómo se le pide (interfaz) y cómo lo consigue (protocolo).
+**Propósito**: Separar visualmente los tres conceptos que se confunden con facilidad: qué ofrece la capa (servicio), cómo se le pide (interfaz) y cómo lo consigue (protocolo).
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" role="img" aria-label="Anatomía de una capa: el servicio es lo que la capa N ofrece a la capa N más uno, la interfaz es el conjunto de primitivas con las que se le pide a través de un punto de acceso al servicio, y el protocolo es el conjunto de reglas con las que la entidad de la capa N dialoga con su entidad par en el otro sistema">
@@ -280,7 +280,7 @@
 ## D7 · Demultiplexación: los tres campos que deciden la entrega
 
 **Sección**: §3.3 — Encapsulamiento y demultiplexación de datos
-**Propósito**: Aislar los tres campos de cabecera que gobiernan la entrega hacia arriba y sus valores memorizables, que son de examen seguro.
+**Propósito**: Aislar los tres campos de cabecera que gobiernan la entrega hacia arriba y sus valores memorizables.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" role="img" aria-label="La demultiplexación usa un campo por nivel: el campo EtherType de la trama indica el protocolo de red, con los valores 0x0800 para IPv4, 0x0806 para ARP y 0x86DD para IPv6; el campo Protocolo de IPv4 o Siguiente cabecera de IPv6 indica el protocolo de transporte, con los valores 1 para ICMP, 6 para TCP y 17 para UDP; y el puerto de destino indica el proceso de aplicación">
@@ -333,7 +333,7 @@
 ## D8 · Correspondencia OSI ↔ TCP/IP y diferencias de diseño
 
 **Sección**: §4.1 — Correspondencia y equivalencia entre capas
-**Propósito**: Reunir en una imagen la correspondencia capa a capa —con las dos fusiones— y la tabla de diferencias de diseño, que son las dos preguntas seguras del apartado.
+**Propósito**: Reunir en una imagen la correspondencia capa a capa —con las dos fusiones— y la tabla de diferencias de diseño, que son los dos ejes del apartado.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" role="img" aria-label="Correspondencia entre el modelo OSI y el modelo TCP-IP: las capas de aplicación, presentación y sesión de OSI se funden en la capa de aplicación de TCP-IP; transporte y red se corresponden una a una con transporte e internet; y las capas de enlace de datos y física se funden en la capa de acceso a la red. Se añade una tabla con las diferencias de diseño entre ambos modelos">
@@ -420,7 +420,7 @@
 ## D10 · La cabecera IPv4 campo a campo
 
 **Sección**: §6.1 — Protocolo de Internet versión 4 (IPv4)
-**Propósito**: Presentar la cabecera en su disposición real de palabras de 32 bits, que es como se pregunta, y destacar los tres campos que más se examinan.
+**Propósito**: Presentar la cabecera en su disposición real de palabras de 32 bits, y destacar los tres campos clave.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 346" role="img" aria-label="Cabecera IPv4 dispuesta en palabras de 32 bits: primera palabra con versión, longitud de cabecera, tipo de servicio y longitud total; segunda con identificación, indicadores y desplazamiento de fragmento; tercera con tiempo de vida, protocolo y suma de comprobación de la cabecera; cuarta con la dirección de origen; quinta con la dirección de destino; y opciones variables">
@@ -461,7 +461,7 @@
 ## D11 · Máscara, CIDR y cálculo de subredes
 
 **Sección**: §6.1 — Protocolo de Internet versión 4 (IPv4)
-**Propósito**: Dar el procedimiento de cálculo y las fórmulas, con un ejemplo trabajado sobre el bloque de un distrito, que es exactamente el formato de la parte práctica del examen.
+**Propósito**: Dar el procedimiento de cálculo y las fórmulas, con un ejemplo trabajado sobre el bloque de un distrito.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 358" role="img" aria-label="Cálculo de subredes: una dirección de 32 bits se divide en parte de red y parte de equipo según la máscara. Las fórmulas son dos elevado a treinta y dos menos ene para el número de direcciones, menos dos para los equipos direccionables, y dos elevado a ka para el número de subredes al tomar prestados ka bits. Se ilustra con la división del bloque 10.20.8.0 barra 22 en cuatro subredes barra 24">
@@ -680,7 +680,7 @@
 ## D16 · TCP: cabecera, saludo de tres vías y cierre en cuatro
 
 **Sección**: §7.2 — Transmission Control Protocol (TCP)
-**Propósito**: Reunir en una imagen la cabecera con sus campos, la secuencia de apertura y la de cierre, que son los tres bloques de examen seguro del protocolo.
+**Propósito**: Reunir en una imagen la cabecera con sus campos, la secuencia de apertura y la de cierre, que son los tres bloques clave del protocolo.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 372" role="img" aria-label="Cabecera TCP de 20 octetos mínimo con puertos de origen y destino, número de secuencia, número de acuse de recibo, desplazamiento de datos, indicadores, ventana, suma de comprobación y puntero de urgencia. Secuencia de apertura en tres vías: SYN, SYN más ACK y ACK. Secuencia de cierre en cuatro segmentos: FIN, ACK, FIN y ACK">
@@ -724,7 +724,7 @@
 ## D17 · TCP frente a UDP y mapa de puertos por servicio
 
 **Sección**: §7.3 — User Datagram Protocol (UDP) · §8
-**Propósito**: Enfrentar los dos protocolos de transporte en los criterios que se preguntan y adjuntar la tabla de puertos, que es el bloque memorístico más rentable del tema.
+**Propósito**: Enfrentar los dos protocolos de transporte en los criterios clave y adjuntar la tabla de puertos, que es el bloque memorístico más rentable del tema.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 366" role="img" aria-label="Comparación entre TCP y UDP: TCP es el protocolo 6, orientado a conexión, fiable, con cabecera de 20 a 60 octetos, con control de flujo y de congestión y sin multidifusión; UDP es el protocolo 17, sin conexión, no fiable, con cabecera fija de 8 octetos, sin control de flujo ni de congestión y con multidifusión. Se acompaña de una tabla con los puertos de los servicios más frecuentes">
@@ -771,7 +771,7 @@
 ## D18 · DNS: jerarquía de nombres y proceso de resolución
 
 **Sección**: §8.1 — Servicios de infraestructura de red (DNS y DHCP)
-**Propósito**: Mostrar a la vez el árbol de nombres con la delegación y la secuencia de consultas recursiva e iterativa, que es la pregunta habitual sobre el protocolo.
+**Propósito**: Mostrar a la vez el árbol de nombres con la delegación y la secuencia de consultas recursiva e iterativa.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 352" role="img" aria-label="El sistema de nombres de dominio es una base de datos distribuida y jerárquica: bajo la raíz están los dominios de primer nivel, bajo ellos los de segundo nivel y los subdominios. El cliente hace una consulta recursiva a su resolutor, que a su vez hace consultas iterativas a la raíz, al dominio de primer nivel y al servidor autoritativo hasta obtener la respuesta, que guarda en caché">
@@ -800,7 +800,7 @@
   <text x="250" y="262" text-anchor="middle" class="d18">2, 3 y 4: consultas iterativas</text>
   <text x="506" y="262" text-anchor="middle" class="d18">cada uno remite al siguiente</text>
   <rect x="24" y="272" width="313" height="34" rx="4" fill="#eef3f8"/>
-  <text x="180" y="288" text-anchor="middle" class="k18">Registros más preguntados</text>
+  <text x="180" y="288" text-anchor="middle" class="k18">Registros principales</text>
   <text x="180" y="301" text-anchor="middle" class="d18">A (IPv4) · AAAA (IPv6) · CNAME · MX · NS · SOA · PTR · TXT</text>
   <rect x="345" y="272" width="311" height="34" rx="4" fill="#fdf3e3"/>
   <text x="500" y="288" text-anchor="middle" class="k18">Transporte</text>
@@ -816,7 +816,7 @@
 ## D19 · DHCP: el intercambio DORA y el ciclo de la concesión
 
 **Sección**: §8.1 — Servicios de infraestructura de red (DNS y DHCP)
-**Propósito**: Fijar los cuatro mensajes, los dos puertos, los umbrales de renovación y el papel del agente de retransmisión, que es la pregunta práctica típica.
+**Propósito**: Fijar los cuatro mensajes, los dos puertos, los umbrales de renovación y el papel del agente de retransmisión.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 346" role="img" aria-label="Intercambio DHCP en cuatro mensajes: el cliente emite un descubrimiento por difusión, el servidor responde con una oferta, el cliente solicita formalmente una de las ofertas y el servidor confirma con un acuse. La concesión es temporal: se renueva al cincuenta por ciento del tiempo y se reenlaza al ochenta y siete coma cinco por ciento. En redes con varias subredes hace falta un agente de retransmisión">

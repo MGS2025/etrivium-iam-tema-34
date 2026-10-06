@@ -19,13 +19,13 @@ El enunciado oficial (BOAM 10.032, tema 34) enumera **tres materias**. Correspon
 | — Comparativa entre ambos modelos (no está en el enunciado, sí en el esqueleto) | §4 | ✅ Completo |
 | — Integración normativa en la Administración (no está en el enunciado, sí en el esqueleto) | §9 | ✅ Completo |
 
-El **esqueleto de partida** (`Test_Prompting/temas agosto/34.md`) se ha seguido **literalmente**: sus nueve bloques de primer nivel son las nueve secciones, sus veinticinco bloques de segundo nivel son los veinticinco epígrafes, y los dos únicos bloques de tercer nivel son los dos subepígrafes §2.3.1 y §2.3.2. **Es el primer tema de la serie cuyo esqueleto mapea sin ningún ajuste a los tres niveles de numeración**, a diferencia de lo ocurrido en T27 y T30.
+El **esqueleto de partida** se ha seguido **literalmente**: sus nueve bloques de primer nivel son las nueve secciones, sus veinticinco bloques de segundo nivel son los veinticinco epígrafes, y los dos únicos bloques de tercer nivel son los dos subepígrafes §2.3.1 y §2.3.2. **Es el primer tema de la serie cuyo esqueleto mapea sin ningún ajuste a los tres niveles de numeración**, a diferencia de lo ocurrido en T27 y T30.
 
 ## 2. Contenido teórico
 
 - **9 secciones · 25 epígrafes · 2 subepígrafes** (numeración de tres niveles, `N.M.K`, coherente con el resto de la serie técnica).
 - **~21.500 palabras** medidas con `wc -w`. Es el **segundo tema más extenso de la serie**, por detrás de T32 (≈25.000) y en el mismo orden que T30 (≈21.400) y T29 (≈21.200). La causa es estructural: el enunciado obliga a describir **dos modelos completos** y después **la pila entera de protocolos**, nivel por nivel.
-- **4 tipos de callout**: `[DATO CLAVE EXAMEN]`, `[EJERCICIO RESUELTO]`, `[EJEMPLO AYTO MADRID]` y `[REFERENCIA CRUZADA]`.
+- **4 tipos de callout**: `[DATO CLAVE]`, `[EJERCICIO RESUELTO]`, `[EJEMPLO DE APLICACIÓN EN EL AYTO]` y `[RELACIÓN CON OTROS TEMAS]`.
 - **Caso de referencia transversal**: la red corporativa municipal que conecta las oficinas de distrito con el centro de proceso de datos del IAM, y de ahí con internet y con la red SARA. Atraviesa las nueve secciones y enlaza con los tres casos prácticos.
 - Cierre con un bloque de **«los diez datos que no se pueden fallar»**, no numerado, a modo de resumen memorístico de última hora.
 - **Sin fragmentos de código.** Decisión deliberada, igual que en T26, T28, T29, T30 y T32: el enunciado no menciona ningún lenguaje y lo memorizable son **cabeceras, puertos, números de protocolo, prefijos y numeración de RFC**. Se han concentrado en tablas y en los diagramas D7, D9, D10, D12, D16 y D17.
@@ -69,7 +69,7 @@ Cada caso suma **10 puntos** repartidos en cuatro cuestiones, con solución orie
 
 Los 20 diagramas son SVG inline, sin dependencias externas, con `role="img"` y `aria-label` descriptivo en español, y con las clases CSS sufijadas por número para evitar colisiones de estilo entre ellos.
 
-Los seis que conviene memorizar tal cual, y que concentran el contenido de examen: **D4** (las siete capas de OSI con su PDU), **D7** (los tres campos de la demultiplexación con sus valores), **D8** (la correspondencia entre ambos modelos), **D10 y D12** (las cabeceras IPv4 e IPv6 enfrentadas), **D17** (TCP frente a UDP y el mapa de puertos) y **D20** (la arquitectura de conexión a SARA con las medidas del ENS).
+Los seis que conviene memorizar tal cual: **D4** (las siete capas de OSI con su PDU), **D7** (los tres campos de la demultiplexación con sus valores), **D8** (la correspondencia entre ambos modelos), **D10 y D12** (las cabeceras IPv4 e IPv6 enfrentadas), **D17** (TCP frente a UDP y el mapa de puertos) y **D20** (la arquitectura de conexión a SARA con las medidas del ENS).
 
 ## 7. Fronteras con otros temas
 

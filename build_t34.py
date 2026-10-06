@@ -35,10 +35,10 @@ def inline(t):
 
 
 CALLOUTS = {
-    "DATO CLAVE EXAMEN": "dato",
+    "DATO CLAVE": "dato",
     "EJERCICIO RESUELTO": "ejercicio",
-    "EJEMPLO AYTO MADRID": "ayto",
-    "REFERENCIA CRUZADA": "ref",
+    "EJEMPLO DE APLICACIÓN EN EL AYTO": "ayto",
+    "RELACIÓN CON OTROS TEMAS": "ref",
 }
 
 
@@ -345,7 +345,7 @@ def build():
 <tr><td>Casos prácticos Ayto Madrid</td><td>3 casos (direccionamiento y segmentación de una oficina de distrito; diagnóstico de una incidencia recorriendo la pila capa por capa; migración a IPv6 y conexión de la red municipal a SARA)</td></tr>
 <tr><td>Fuentes Tier 1</td><td>38 referencias canónicas (ISO/IEC 7498, UIT-T X.200, RFC del IETF, IEEE 802, IANA, ENS, ENI, NTI de conexión a SARA, Plan de fomento de IPv6)</td></tr>
 </tbody></table>
-<div class="callout ref"><span class="kicker">Cómo estudiar</span>El enunciado encadena <strong>tres preguntas distintas</strong> y conviene no confundirlas: una <strong>conceptual</strong> (por qué las redes se diseñan por capas), una <strong>comparativa</strong> (dos modelos, uno normativo y otro real) y una <strong>descriptiva y de dato</strong> (la pila TCP/IP nivel por nivel). Quien solo memorice «las siete capas de OSI» y «los cuatro niveles de TCP/IP» tiene cubierta menos de una cuarta parte del tema: la parte que más preguntas produce en un examen de C1 es la tercera. El orden que funciona es <strong>§1 y §2</strong> para fijar el vocabulario, <strong>§3 y §4</strong> para enfrentar los dos modelos, y después <strong>§5 a §8</strong> capa por capa, que es donde está el dato. Memoriza los <strong>Diagramas</strong> D4 (las siete capas y su PDU), D7 (los tres campos de la demultiplexación), D8 (la correspondencia entre modelos), D10 y D12 (las cabeceras IPv4 e IPv6) y D17 (TCP frente a UDP y el mapa de puertos). Las cajas naranjas (DATO CLAVE) marcan lo memorizable: tamaños de cabecera, números de protocolo, puertos, prefijos y numeración de RFC. Termina siempre por el bloque final del Contenido, <strong>«los diez datos que no se pueden fallar»</strong>.</div>"""
+<div class="callout ref"><span class="kicker">Cómo estudiar</span>El enunciado encadena <strong>tres preguntas distintas</strong> y conviene no confundirlas: una <strong>conceptual</strong> (por qué las redes se diseñan por capas), una <strong>comparativa</strong> (dos modelos, uno normativo y otro real) y una <strong>descriptiva y de dato</strong> (la pila TCP/IP nivel por nivel). Quien solo memorice «las siete capas de OSI» y «los cuatro niveles de TCP/IP» tiene cubierta menos de una cuarta parte del tema. El orden que funciona es <strong>§1 y §2</strong> para fijar el vocabulario, <strong>§3 y §4</strong> para enfrentar los dos modelos, y después <strong>§5 a §8</strong> capa por capa, que es donde está el dato. Memoriza los <strong>Diagramas</strong> D4 (las siete capas y su PDU), D7 (los tres campos de la demultiplexación), D8 (la correspondencia entre modelos), D10 y D12 (las cabeceras IPv4 e IPv6) y D17 (TCP frente a UDP y el mapa de puertos). Las cajas naranjas (DATO CLAVE) marcan lo memorizable: tamaños de cabecera, números de protocolo, puertos, prefijos y numeración de RFC. Termina siempre por el bloque final del Contenido, <strong>«los diez datos que no se pueden fallar»</strong>.</div>"""
 
     nav = (
         '<nav class="tabs">'
